@@ -12,7 +12,7 @@ func main() {
 	port := flag.Int("port", 80, "listening port")
 	flag.Parse()
 	fmt.Printf("Starting on port %d:...\n", *port)
-	http.HandleFunc("/", brokenHandler)
+	http.HandleFunc("/", rootHandler)
 	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", *port), nil))
 }
 
