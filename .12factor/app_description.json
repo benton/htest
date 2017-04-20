@@ -1,0 +1,11 @@
+{
+  "deploy_env": {
+    "cmd_release": [],
+    "processes": {
+      "web": "htest"
+    },
+    "listening_ports": { "web" : [ 80 ] },
+    "max_ram": { "web" : 256 },
+    "admin_tasks": {}
+  }
+}
