@@ -1,4 +1,4 @@
-https-redirect - redirects all incoming requests to https
+htest - simple http server for testing
 ================
 
 ----------------
